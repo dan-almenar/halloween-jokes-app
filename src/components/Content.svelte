@@ -18,7 +18,7 @@
     const shareJoke = async () => {
         const message = {
             title: 'Happy Halloween!',
-            text: `-${joke.setup}\n-${joke.delivery}\nGet more jokes at\n`,
+            text: `—${joke.setup}\n—${joke.delivery}\n\nGet more jokes at\n`,
             url: 'https://halolween-dbecc.web.app/'
         }
         try {
