@@ -19,7 +19,7 @@
         const message = {
             title: 'Happy Halloween!',
             text: `-${joke.setup}\n-${joke.delivery}`,
-            url: 'https://danielalmenar.com'
+            url: 'https://halolween-dbecc.web.app/'
         }
         try {
             await navigator.share(message)
