@@ -19,7 +19,6 @@ export const setJoke = async () => {
     const joke = await getJoke()
     store.update((state) => {
         state.joke = joke
-        console.log("JOKE", state.joke)
         return state
     })
     return
