@@ -1,6 +1,6 @@
 const randomImg = () => {
     const num = Math.floor(Math.random() * 19)
-    return `/bgImages/${num}.jpg`
+    return `/bgImages/${num}.webp`
 }
 
 const getJoke = async() => {
